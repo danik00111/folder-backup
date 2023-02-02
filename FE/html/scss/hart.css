@@ -6,7 +6,6 @@
   list-style: none;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: "Montserrat";
 }
 
 .cont {
@@ -28,8 +27,13 @@
   width: 100%;
   height: 50%;
   border-radius: 30px 30px 0 0;
-  background: linear-gradient(to top left, darkorange, goldenrod);
+  background: linear-gradient(to top left, #c53812, #e65a19);
   color: white;
+  padding: 0 30px;
+}
+
+.hdr__info p {
+  font-size: 12px;
 }
 
 .logo {
@@ -39,17 +43,67 @@
 .foot {
   width: 300px;
   position: absolute;
-  bottom: 60%;
+  bottom: 50%;
   left: 50%;
+}
+
+.fast {
+  color: #b3412a;
+  font-size: 115px;
+  font-weight: 900;
+  margin-left: -30px;
 }
 
 .card__ftr {
   width: 100%;
   height: 50%;
+  padding: 30px;
   border-radius: 0 0 30px 30px;
   background: white;
 }
 
+.card__ftr-title {
+  display: flex;
+  align-items: center;
+}
+.card__ftr-title .ftr__title {
+  font-size: 15px;
+  margin-right: 15px;
+}
+.card__ftr-title .ftr__new {
+  font-size: 10px;
+  padding: 5px;
+  color: white;
+  background: lime;
+  border-radius: 5px;
+}
+
 .fa-solid {
   color: darkorange;
+}
+
+.ftr__sizes {
+  display: flex;
+}
+
+.ftr__size-num {
+  background: whitesmoke;
+  padding: 5px 0;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 500ms;
+}
+.ftr__size-num:nth-child(4) {
+  background: red;
+  color: white;
+}
+.ftr__size-num:not(:last-child) {
+  margin-right: 20px;
+}
+.ftr__size-num:not(:nth-child(4)):hover {
+  background: silver;
+  cursor: pointer;
+  transition: 500ms;
 }/*# sourceMappingURL=hart.css.map */

@@ -29,6 +29,7 @@
   height: 50%;
   border-radius: 30px 30px 0 0;
   background: linear-gradient(to top left, darkorange, goldenrod);
+  color: white;
 }
 
 .hdr__info {}
@@ -45,6 +46,9 @@
 
 .foot {
   width: 300px;
+  position: absolute;
+  bottom: 60%;
+  left: 50%;
 }
 
 .fast {}
@@ -55,4 +59,8 @@
   height: 50%;
   border-radius: 0 0 30px 30px;
   background: white;
+}
+
+.fa-solid {
+  color: darkorange;
 }

@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  overflow: 0;
+  outline: 0;
   border: 0;
   list-style: none;
   box-sizing: border-box;
@@ -42,6 +42,11 @@
   color: gray;
   text-transform: uppercase;
   font-size: 30px;
+}
+
+.hdr__menu {
+  display: flex;
+  align-items: center;
 }
 
 .menu__item {

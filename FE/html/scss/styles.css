@@ -11,7 +11,6 @@
 }
 
 .hdr {
-  position: -webkit-sticky;
   position: sticky;
   width: 100%;
   background: linear-gradient(#3c3c3c, #131313);
